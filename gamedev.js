@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goBack1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/forest2.jpg')");
 		$("#goBeach").hide();
 		$("#goBack").hide();
 		$("#goForest2").show();
@@ -37,7 +37,7 @@ $( document ).ready(function() {
 
 	$("#goLivingroom").click(function() {
 		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
-		$("#House").hide();
+		$("#House").hide(); 
 		$("#goKitchen").show();
 		$("#goRoom").show();
 		$("#goBack4").show();
@@ -56,19 +56,7 @@ $( document ).ready(function() {
 		$("#goBack6").show();
 	});
 
-	$("#goLeft-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
-		$("#goLeft3").hide();
-		$("#goBack").show();
-	});
-
-
-	$("#goBack").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreHome1.jpg')");
-		$("#goBack").hide();
-		$("#goRight1").show();
-		$("#goLeft1").show();
-	});
+	
 
 
 
