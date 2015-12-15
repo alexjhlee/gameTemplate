@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 	$("#goBack1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/forest2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/beach.jpg')");
 		$("#goBeach").hide();
 		$("#goBack").hide();
 		$("#goForest2").show();
@@ -9,13 +9,13 @@ $( document ).ready(function() {
 	});
 
 	$("#goForest2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/forest2.jpg')");
 		$("#goBack1").show();
 		$("#goForest1").show();
 	});  
 
 	$("#goForest1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/Forest1.jpg')");
 		$("#goForest2").hide();
 		$("#goHouse").show();
 		$("#goBack2").show();
@@ -23,12 +23,12 @@ $( document ).ready(function() {
 	});
 
 		$("#goCave").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/caveEntrance.jpg')");
 		$("#goForest1").hide();
 		$("#goBack").show();
 
 	$("#goHouse").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/House.jpg')");
 		$("#goForest1").hide();
 		$("#goLivingroom").show();
 		$("#goBack3").show();
@@ -36,7 +36,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLivingroom").click(function() {
-		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/livingRoom.jpg')");
 		$("#House").hide(); 
 		$("#goKitchen").show();
 		$("#goRoom").show();
@@ -45,13 +45,13 @@ $( document ).ready(function() {
 
 
 	$("#goKitchen").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/kitchen.jpg')");
 		$("#goLivingroom").hide();
 		$("#goGoback5").show();
 	});
 
 	$("#goRoom").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/room.jpg')");
 		$("#goRoom").hide();
 		$("#goBack6").show();
 	});
