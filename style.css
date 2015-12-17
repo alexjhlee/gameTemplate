@@ -62,53 +62,42 @@ body {
     display: block;
 }
 
-#goRight1 {
+#goForest1 {
     right: 40px;
     top: 40%;
     display: block;
 }
 
-#goRight-Straight1 {
+#goCave {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goLeft-Straight1 {
+#goHouse {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goRight-Straight2 {
+#goLivingroom {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goLeft-Straight2 {
+#goKitchen {
     bottom: 25%;
     left: 45%;
     display: none;
 }
 
-#goRight-Right2 {
+#goRoom {
     right: 40px;
     top: 40%;
     display: none;
 }
 
-#goLeft-Straight3 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
-#goBack {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
 
 
 .hudBase {
